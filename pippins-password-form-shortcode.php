@@ -52,12 +52,13 @@ function pippin_change_password_form() {
         <?php } ?>
         <form id="pippin_password_form" method="POST" action="<?php echo $current_url; ?>">
             <fieldset>
+                <legend>Reset your password</legend>
                 <p>
-                    <label for="pippin_user_pass"><?php _e('New Password', 'rcp'); ?></label>
+                    <label for="pippin_user_pass"><?php _e('New Password:', 'rcp'); ?></label>
                     <input name="pippin_user_pass" id="pippin_user_pass" class="required" type="password"/>
                 </p>
                 <p>
-                    <label for="pippin_user_pass_confirm"><?php _e('Password Confirm', 'rcp'); ?></label>
+                    <label for="pippin_user_pass_confirm"><?php _e('Password Confirm:', 'rcp'); ?></label>
                     <input name="pippin_user_pass_confirm" id="pippin_user_pass_confirm" class="required" type="password"/>
                 </p>
                 <p>

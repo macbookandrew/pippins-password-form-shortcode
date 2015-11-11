@@ -7,7 +7,7 @@
 **License:** GPL2
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html
 
-Provides a [password_form] shortcode that outputs a “reset password” form. All code from https://pippinsplugins.com/change-password-form-short-code/
+Provides a `[password_form]` shortcode that outputs a “reset password” form. All code from https://pippinsplugins.com/change-password-form-short-code/
 
 ## Installation ##
 1. Install the plugin
